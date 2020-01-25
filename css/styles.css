@@ -1,7 +1,7 @@
 .fluid{
     margin: 60px;
 }
-.log,img{
+.log{
     text-align: center;
 }
 .log p{
@@ -14,6 +14,12 @@
 .sch li{
     margin: 30px;
     font-size: 2rem;
+    color: black;
+}
+.other li{
+    font-size: 2rem;
+    margin: 30px;
+    color: black;
 }
 h1{
    text-align: center;
@@ -60,19 +66,10 @@ h1{
     margin: 3%;
     margin-left: 10%;
 }
- /* .sch{
+ .sch{
     font-size: 2rem;
     color: rgb(116,16,6);
-    display: inline-block;
-    box-shadow: 0 0 0px black;
-    background-color: darkgray; 
-    border-radius: 15px;
-    width: 60%;
-    height: 20%;
-    padding: 30px 20px;
-    margin: 3%;
-    margin-left: 20%;
-} */
+} 
 .column{
     text-align: center;
     margin: 20px;
@@ -85,8 +82,8 @@ h1{
       clear: both;
   }
   @media screen and (max-width: 1080px){
-    .log img{
-        width: 100%;
+    body{
+        background-color: rgb(202, 201, 199);
     }
     .log p{
         text-align: center;

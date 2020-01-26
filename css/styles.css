@@ -74,6 +74,11 @@ h1{
     font-size: 2rem;
     color: rgb(116,16,6);
 } 
+.sch p1{
+    display: list-item;
+    color: black;
+    font-size: 1.5rem;
+}
 .column{
     text-align: center;
     margin: 20px;
@@ -84,6 +89,10 @@ h1{
       content: "";
       display: table;
       clear: both;
+  }
+  .other li:hover{
+      color: rgb(116, 16, 6);
+      
   }
   @media screen and (max-width: 1080px){
     body{
@@ -104,11 +113,20 @@ h1{
     text-align: center;
     width: 47%;
     height: 40%;
+    font-size: 1.5rem;
 }
 .p2,p2{
-    margin: 2%;
+    margin: 0%;
     text-align: center;
     width: 47%;
-    height: 40%;
+    height: 40%; 
+    font-size: large;
 }
-  }
+#p4{
+    text-align: center;
+}
+.sch,p1{
+    margin: 50px;
+    display: inline-table;
+}
+}

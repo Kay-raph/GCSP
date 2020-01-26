@@ -13,13 +13,16 @@
 }
 .sch li{
     margin: 30px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: black;
+    
 }
 .other li{
-    font-size: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
     margin: 30px;
     color: black;
+    display: inline-block;
 }
 h1{
    text-align: center;

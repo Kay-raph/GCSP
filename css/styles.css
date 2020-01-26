@@ -103,9 +103,12 @@ h4,h5{
   }
   @media screen and (max-width: 500px){
     body{
-        background-color: rgb(202, 201, 199);
+        background-color: rgb(153, 150, 145);
         width: 100%;
-        height: ;
+        height: 100px;
+    }
+    .fluid{
+        margin: 0px;
     }
     .log p{
         text-align: center;
@@ -138,8 +141,10 @@ h5{
 #pp4{
     text-align: center;
 }
-.sch,p1{
-    margin: 0px;
+p9{
+    display: list-item;
+    margin: 20px;
     font-size: medium;
+    color: teal;
 }
 }

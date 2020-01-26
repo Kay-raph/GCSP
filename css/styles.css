@@ -86,7 +86,7 @@ h4,h5{
     color: black;
     font-size: 1.5rem;
 }
-.column{
+/* .column{
     text-align: center;
     margin: 20px;
     padding: 5px;
@@ -96,7 +96,7 @@ h4,h5{
       content: "";
       display: table;
       clear: both;
-  }
+  } */
   .other li:hover{
       color: rgb(116, 16, 6);
       
@@ -115,23 +115,34 @@ h4,h5{
 .row{
     margin: 0%;
 }
-.p2{
-    padding: 15px 2px;
+/* .p2,h4{
+    display: inline-block;
+   font-size: medium; 
+   margin: 5px;
+   color: rgb(100, 25, 25);
+   box-shadow: none;
+   background-color: transparent;
+} */
+.p3,.p2,p1{
+    font-size: 1rem;
+    color: teal;
 }
-h4,h5{
+
+.p3,.p2{
+    display: inline-block;
     font-size: medium;
-    color: whitesmoke;
-}
-.p3{
-    margin: 6%;
-    padding: 15px 2px;  
+    color: rgb(100, 25, 25);
+    box-shadow: none;
+    background-color: transparent;
+    /* margin: 10px; */
+    margin-left: 18px;
 }
 
 #p4{
     text-align: center;
 }
 .sch,p1{
-    margin-left: 60px;
+    margin-left: 40px;
     font-size: medium;
 }
 }

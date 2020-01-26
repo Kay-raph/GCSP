@@ -30,6 +30,10 @@ h1{
     letter-spacing: 3px;
     font-size: 2rem;
 }
+h4,h5{
+    font-weight: bolder;
+    font-size: xx-large;
+}
 .nav{
     background-color: transparent;
     text-align: center;
@@ -108,17 +112,23 @@ h1{
 .row{
     margin: 0%;
 }
-.p3,p3{
+.p2{
+    padding: 15px 2px;
+}
+h4,h5{
+    font-size: medium;
+    color: whitesmoke;
+}
+.p3{
     margin: 6%;
-    /* width: 47%;
-    height: 40%;
-    font-size: large; */
+    padding: 15px 2px;  
 }
 
 #p4{
     text-align: center;
 }
-.sch>p1{
+.sch,p1{
     margin-left: 60px;
+    font-size: medium;
 }
 }

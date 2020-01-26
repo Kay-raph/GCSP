@@ -104,25 +104,13 @@ h4,h5{
   @media screen and (max-width: 500px){
     body{
         background-color: rgb(202, 201, 199);
+        width: 100%;
+        height: ;
     }
     .log p{
         text-align: center;
         
     }
-.column{
-    margin: 0%;
-}
-.row{
-    margin: 0%;
-}
-/* .p2,h4{
-    display: inline-block;
-   font-size: medium; 
-   margin: 5px;
-   color: rgb(100, 25, 25);
-   box-shadow: none;
-   background-color: transparent;
-} */
 .p3,
 .p2,
  p1{
@@ -139,12 +127,15 @@ h5{
     color: rgb(100, 25, 25);
     box-shadow: none;
     background-color: transparent;
-    margin: 10px;
+    margin-left: 10px;
     font-size: 1.5rem;
     text-align: center;
 }
 
 #p4{
+    text-align: center;
+}
+#pp4{
     text-align: center;
 }
 .sch,p1{

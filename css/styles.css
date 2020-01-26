@@ -1,5 +1,5 @@
 .fluid{
-    margin: 60px;
+    margin: 80px;
 }
 .log{
     text-align: center;
@@ -10,6 +10,9 @@
     letter-spacing: 2px;
     font-size: 2rem;
     margin: 2px;
+}
+.sch{
+    margin: 30px;
 }
 .sch li{
     margin: 30px;
@@ -98,7 +101,7 @@ h4,h5{
       color: rgb(116, 16, 6);
       
   }
-  @media screen and (max-width: 1080px){
+  @media screen and (max-width: 600px){
     body{
         background-color: rgb(202, 201, 199);
     }

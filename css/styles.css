@@ -77,6 +77,11 @@ h4,h5{
     margin: 3%;
     margin-left: 10%;
 }
+p9{
+    display: list-item;
+    margin-left: 500px;
+    color: teal;
+}
  .sch{
     font-size: 2rem;
     color: rgb(116,16,6);
@@ -101,6 +106,12 @@ h4,h5{
       color: rgb(116, 16, 6);
       
   }
+  #wp-block-separator {
+	border: none;
+	border-bottom: 2px solid gray;
+	/* max-width: 100px; */
+	margin: 1em auto;
+}
   @media only screen and (max-width: 500px),only screen and (max-device-width: 500px){
     body{
         background-color: rgb(153, 150, 145);
@@ -123,7 +134,6 @@ h4,h5{
 
 .p3,
 .p2,
-h4,
 h5{
     display: inline-block;
     font-size: medium;

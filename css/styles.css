@@ -101,7 +101,7 @@ h4,h5{
       color: rgb(116, 16, 6);
       
   }
-  @media screen and (max-width: 500px){
+  @media only screen and (max-width: 500px),only screen and (max-device-width: 500px){
     body{
         background-color: rgb(153, 150, 145);
         width: 100%;

@@ -114,7 +114,7 @@ p9{
 }
   @media only screen and (max-width: 500px),only screen and (max-device-width: 500px){
     .fluid{
-        background-color: burlywood;
+        background-color: whitesmoke;
         width: 100%;
         height: 100%;
     }

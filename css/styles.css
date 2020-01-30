@@ -72,12 +72,14 @@ text-align: justify;
 font-size: 10px;
 margin-left: 70px;
 position: absolute;
-margin-top: 10px;
+margin-top: 0px;
+color: rgb(23, 99, 129);
     }
     hr{
        display: none;
     }
     .mg{
+        margin-top: 60px;
         font-size: 20px;
     margin-left: 50px;
     width: 100%;

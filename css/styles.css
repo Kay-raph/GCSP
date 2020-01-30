@@ -33,16 +33,7 @@ h1{
 h2{
     color: rgb(116, 16, 6);
 }
-.column {
-    float: right;
-    width: 30%;
-}
 
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
 div.img {
     margin: 15px;
     border-radius: 15px solid #ccc;
@@ -58,6 +49,16 @@ div.img img {
     border-radius: 35px;
 }
 div.desc {
+    padding: 15px;
+    text-align: center;
+}
+div.mg{
+    margin: 10px;
+    display: inline-block;
+    width: 10%;
+    margin-left: 50px;
+}
+div.us{
     padding: 15px;
     text-align: center;
 }

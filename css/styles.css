@@ -35,8 +35,7 @@ h2{
 }
 
 div.img {
-    margin: 15px;
-    border-radius: 15px solid #ccc;
+    margin: 10px;
     display: inline-block; 
     width: 20%;
     margin-left: 40px;
@@ -58,6 +57,10 @@ div.meg{
     width: 10%;
     margin-left: 50px;
 }
+.meg p{
+    font-size: small; 
+    font-weight: bold;
+}
 div.us{
     padding: 15px;
     text-align: center;
@@ -66,6 +69,10 @@ div .can{
     padding: 15px;
     text-align: center;
 }
+div .uk{
+    margin-left: 55px;
+}
+
 .soc,
 img {
     margin-right: auto;
@@ -74,18 +81,30 @@ img {
     margin-right: 0.5em;
     color: rgb(23, 99, 129);
 }
-@media only screen and (max-width: 500px),only screen and (max-device-width: 500px){
+@media only screen and (max-width: 700px),only screen and (max-device-width: 500px){
 
     .fluid{
         margin: 40px;
     }
+    .mg{
+        width: 100%;
+        height: auto;
+    }
+    .meg,img,p{
+        display: column;
+       margin: 15px;
+    }
+    div.img {
+        width: 80%;
+    }	
+    
+.log,
+p{
+    font-size: small;
+}
 .p1,p1{
-text-align: justify;
-font-size: 10px;
-margin-left: 70px;
-position: absolute;
-margin-top: 0px;
-color: rgb(23, 99, 129);
+    display: none;
+
     }
     hr{
        display: none;
@@ -94,21 +113,32 @@ color: rgb(23, 99, 129);
         margin-top: 60px;
         font-size: 20px;
     margin-left: 50px;
-    width: 100%;
+    max-width: 100%;
     }
     div.us{
         padding: 15px;
+        text-align: center;
+    }
+    div .us,
+    .meg{
+        margin: 0px;
+        display: contents;
         text-align: center;
     }
     div .can{
         padding: 15px;
         text-align: center;
     }
+    div .can,
+    meg{
+        margin: 0px;
+        display: contents;
+        text-align: center; 
+    }
     .soc,
 img {
-     margin: 0px;
-    text-align: center;
-    
+     margin: 4px;    
+     text-align: center;
 }
 
 }
